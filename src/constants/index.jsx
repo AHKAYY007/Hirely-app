@@ -1,9 +1,4 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { Users, UserCheck, Search, TrendingUp, Shield, BarChart3 } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,166 +8,133 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
+  { label: "Home", href: "#" },
+  { label: "About us", href: "#" },
+  { label: "Services", href: "#" },
   { label: "Testimonials", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
+    user: "James Whitmore",
     company: "Stellar Solutions",
     image: user1,
     text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
   },
   {
-    user: "Jane Smith",
+    user: "Harper van Leeuwen",
     company: "Blue Horizon Technologies",
     image: user2,
     text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Marcus O.",
+    company: "HR Manager, FinEdge",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Their hiring process is pure wizardry. Every candidate felt like a perfect puzzle piece for our team.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Bohdan Kryvtsov",
+    company: "Founder, BoldTech",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "A complete game-changer! We scaled operations faster than expected and onboarded talent that boosted our revenue within months.",
   },
   {
-    user: "Michael Wilson",
+    user: "Ewan McCallister",
     company: "Visionary Creations",
     image: user5,
     text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Lydia M.",
+    company: "COO, CrestLine Group",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "Consultants who actually understand growth. They delivered strategies that aligned with our vision and made execution seamless.",
   },
 ];
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Users />,
+    text: "Smart Talent Matching",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Advanced algorithms connect you with the perfect candidates based on skills, culture fit, and experience.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <Search />,
+    text: "Global Talent Pool",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Access a diverse network of qualified professionals from around the world across all industries.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <UserCheck />,
+    text: "Expert Consultants",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Work with seasoned consultants who provide strategic guidance tailored to your business needs.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <TrendingUp />,
+    text: "Scalable Solutions",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Build and expand your team quickly with our streamlined hiring process designed for growth.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Shield />,
+    text: "Quality Assurance",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Rigorous vetting process ensures you only get the best talent that meets your quality standards.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <BarChart3 />,
+    text: "Performance Analytics",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Track hiring metrics and ROI with comprehensive dashboards and detailed insights.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Quick Candidate Screening",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Automated pre-screening filters candidates efficiently, saving you time and resources.",
   },
   {
-    title: "Review code without worry",
+    title: "Direct Communication Channels",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Connect directly with candidates and consultants through integrated messaging and video calls.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "AI-Powered Matchmaking",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Smart matching algorithms analyze compatibility to ensure you find the right fit faster.",
   },
   {
-    title: "Share work in minutes",
+    title: "Instant Onboarding Support",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-];
-
-export const pricingOptions = [
-  {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
+      "Seamless onboarding tools and resources get your new hires productive from day one.",
   },
 ];
 
 export const resourcesLinks = [
   { href: "#", text: "Getting Started" },
   { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
+  { href: "#", text: "Case Studies" },
   { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Blog" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "For Employers" },
+  { href: "#", text: "For Job Seekers" },
+  { href: "#", text: "Pricing Plans" },
+  { href: "#", text: "Success Stories" },
+  { href: "#", text: "Updates" },
 ];
 
 export const communityLinks = [
   { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Workshops" },
+  { href: "#", text: "Networking" },
+  { href: "#", text: "Testimonials" },
+  { href: "#", text: "Careers" },
 ];

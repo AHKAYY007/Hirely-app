@@ -1,8 +1,44 @@
-# React + Vite
+# HIRELY - Hiring & Consultancy Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for a talent acquisition and business consultancy platform.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎯 Smart talent matching and global talent pool access
+- 🤝 Expert consulting services for business growth
+- 📊 Performance analytics and insights
+- 🚀 Scalable hiring solutions
+- ✅ Quality-assured vetting process
+- 💼 Comprehensive onboarding support
+
+## Tech Stack
+
+- React 18
+- Vite
+- Tailwind CSS
+- Lucide React Icons
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Project Structure
