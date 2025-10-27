@@ -83,7 +83,7 @@ const AboutSection = () => {
           <div className="flex items-center gap-2 mb-6">
             <h3 className="text-2xl sm:text-3xl font-bold">Consultancy Services</h3>
             <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm font-bold">
-              2023/2024
+              2025/2026
             </span>
           </div>
           <div className="space-y-5 lg:space-y-6">
