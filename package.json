@@ -1,7 +1,8 @@
 {
-  "name": "hirely",
+  "name": "cftcr-centre-for-training-consultancy-and-recruitment",
   "private": true,
   "version": "1.0.0",
+  "description": "CFTCR (Centre for Training, Consultancy and Recruitment) — formerly Hirely",
   "type": "module",
   "scripts": {
     "dev": "vite",

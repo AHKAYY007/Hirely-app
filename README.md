@@ -1,4 +1,4 @@
-# HIRELY - Hiring & Consultancy Platform
+# CFTCR (Centre for Training, Consultancy and Recruitment)
 
 A modern, responsive landing page for a talent acquisition and business consultancy platform.
 

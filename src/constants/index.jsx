@@ -8,10 +8,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Home", href: "#" },
-  { label: "About us", href: "#" },
-  { label: "Services", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Home", href: "#home" },
+  { label: "About us", href: "#about" },
+  { label: "Services", href: "#services" },
+  { label: "Testimonials", href: "#testimonials" },
 ];
 
 export const testimonials = [
@@ -116,25 +116,25 @@ export const checklistItems = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Case Studies" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Blog" },
+  { href: "#", text: "Our Courses" },
+  { href: "#", text: "Course Catalog" },
+  { href: "#", text: "Training Calendar" },
+  { href: "#", text: "Resources" },
+  { href: "#", text: "FAQs" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "For Employers" },
-  { href: "#", text: "For Job Seekers" },
-  { href: "#", text: "Pricing Plans" },
-  { href: "#", text: "Success Stories" },
-  { href: "#", text: "Updates" },
+  { href: "#", text: "For Learners" },
+  { href: "#", text: "For Organizations" },
+  { href: "#", text: "Pricing" },
+  { href: "#", text: "Register Online" },
+  { href: "#", text: "Contact Us" },
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Workshops" },
-  { href: "#", text: "Networking" },
-  { href: "#", text: "Testimonials" },
-  { href: "#", text: "Careers" },
+  { href: "#", text: "Training Programs" },
+  { href: "#", text: "CPD Courses" },
+  { href: "#", text: "Consultancy Services" },
+  { href: "#", text: "Student Portal" },
+  { href: "#", text: "Support" },
 ];

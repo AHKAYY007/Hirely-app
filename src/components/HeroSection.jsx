@@ -1,11 +1,11 @@
-import video1 from "../assets/video1.mp4";
+// import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-              <b>HIRELY - Platform</b>
+              <b>CFTCR - Platform</b>
         <span className="bg-gradient-to-r from-green-500 to-teal-700 text-transparent bg-clip-text">
           {" "}
           for hiring & consultancy
@@ -14,6 +14,11 @@ const HeroSection = () => {
       <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl">
         Connect your business with top-tier talent and expert consultants. Streamline your hiring process and scale your operations with confidence. Get started today and transform your workforce!
       </p>
+
+      <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl">
+           Get trained by professionals...Become a healthcare worker, trained by teacher, professinalsunday school teacher, etc
+      </p>
+
       <div className="flex justify-center my-10">
         <a
           href="#"
@@ -26,7 +31,7 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="flex mt-10 justify-center">
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -34,8 +39,8 @@ const HeroSection = () => {
         >
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
-        <video
+        </video> */}
+        {/* <video
           autoPlay
           loop
           muted
@@ -43,7 +48,7 @@ const HeroSection = () => {
         >
           <source src={video2} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
       </div>
     </div>
   );
