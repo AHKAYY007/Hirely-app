@@ -5,6 +5,7 @@ import FeatureSection from "./components/FeatureSection";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
+import StudentSection from "./components/StudentSection"; 
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <section id="services">
           <FeatureSection />
           <Workflow />
+          <StudentSection />
         </section>
         <section id="testimonials">
           <Testimonials />
