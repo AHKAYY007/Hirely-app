@@ -12,8 +12,8 @@ import PayMe from "./components/payMe";
 const App = () => {
   return (
     <>
-      <PayMe />
-      {/* <Navbar />
+      {/* <PayMe /> */}
+      <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <section id="home">
           <HeroSection />
@@ -29,8 +29,8 @@ const App = () => {
         <section id="testimonials">
           <Testimonials />
         </section>
-        <Footer /> */}
-      {/* </div> */}
+        <Footer />
+      </div>
     </>
   );
 };
