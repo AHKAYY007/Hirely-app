@@ -1,4 +1,5 @@
 import React from "react";
+import { AlertTriangle } from "lucide-react";
 
 const PayMe = () => {
   const invoice = "INV-0001"; // update invoice id
@@ -12,8 +13,8 @@ const PayMe = () => {
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-orange-900 to-black flex items-center justify-center p-4">
       <div className="max-w-3xl w-full p-8 rounded-lg border-4 border-orange-500 bg-gray-800 text-center shadow-2xl">
         
-        {/* Skull Icon */}
-        <div className="text-6xl mb-4">☠️</div>
+        {/* Alert Icon */}
+        <AlertTriangle className="w-24 h-24 mx-auto mb-6 text-orange-500" strokeWidth={1.5} />
 
         <h1 className="text-4xl font-black text-orange-500 mb-3" style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.8)" }}>
           FINAL DEMAND — PAYMENT DUE NOW

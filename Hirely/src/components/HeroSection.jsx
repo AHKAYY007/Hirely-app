@@ -1,54 +1,46 @@
 // import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
 
 const HeroSection = () => {
+
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-              <b>CFTCR - Platform</b>
+    <div id="home" className="flex flex-col items-center justify-center min-h-screen pt-20 sm:pt-24 md:pt-28 lg:pt-32 px-4 sm:px-6 md:px-8 lg:px-12">
+      <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center tracking-wide max-w-5xl leading-tight">
+        <b className="block mb-3 sm:mb-4 md:mb-5">CFTCR - Platform</b>
         <span className="bg-gradient-to-r from-green-500 to-teal-700 text-transparent bg-clip-text">
-          {" "}
-          for hiring & consultancy
+          for training & consultancy
         </span>
       </h1>
-      <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl">
-        Connect your business with top-tier talent and expert consultants. Streamline your hiring process and scale your operations with confidence. Get started today and transform your workforce!
-      </p>
 
-      <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl">
-           Get trained by professionals...Become a healthcare worker, trained by teacher, professinalsunday school teacher, etc
-      </p>
+      <div className="mt-8 sm:mt-10 md:mt-14 lg:mt-16 text-sm sm:text-base md:text-lg lg:text-lg text-center text-neutral-400 max-w-3xl space-y-5 sm:space-y-6 md:space-y-7">
+        <p className="leading-relaxed px-2">
+          Connect with professional training and consultancy services. Gain industry-recognised qualifications with hands-on support.
+        </p>
 
-      <div className="flex justify-center my-10">
+        <p className="leading-relaxed px-2">
+          Get trained by experts in early years, health care, education and professional development.
+        </p>
+      </div>
+
+      <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 md:gap-6 justify-center mt-10 sm:mt-12 md:mt-16 lg:mt-20 w-full sm:w-auto px-4 sm:px-0">
         <a
-          href="#"
-          className="bg-gradient-to-r from-green-500 to-teal-800 py-3 px-4 mx-3 rounded-md hover:from-green-600 hover:to-teal-900 transition-all"
+          href="#services"
+          className="bg-gradient-to-r from-green-500 to-teal-800 py-3 sm:py-4 px-6 sm:px-8 rounded-lg hover:from-green-600 hover:to-teal-900 text-white font-semibold text-center text-sm sm:text-base transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50 min-h-10"
         >
           Get Started
         </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border hover:bg-neutral-800 transition-all">
+        <a
+          href="#about"
+          className="py-3 sm:py-4 px-6 sm:px-8 rounded-lg border border-neutral-600 hover:border-teal-500 hover:bg-neutral-800/50 text-center font-semibold text-white text-sm sm:text-base transition-all duration-300 min-h-10"
+        >
           Learn More
         </a>
       </div>
-      <div className="flex mt-10 justify-center">
-        {/* <video
-          autoPlay
-          loop
-          muted
-          className="rounded-lg w-1/2 border border-teal-700 shadow-lg shadow-green-400/20 mx-2 my-4"
-        >
-          <source src={video1} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video> */}
-        {/* <video
-          autoPlay
-          loop
-          muted
-          className="rounded-lg w-1/2 border border-teal-700 shadow-lg shadow-green-400/20 mx-2 my-4"
-        >
-          <source src={video2} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video> */}
+
+      {/* Scroll Indicator */}
+      <div className="mt-16 sm:mt-20 md:mt-28 hidden sm:block">
+        <svg className="w-6 h-6 md:w-8 md:h-8 text-teal-400 mx-auto animate-bounce" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
       </div>
     </div>
   );
