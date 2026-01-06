@@ -1,4 +1,4 @@
-// import video1 from "../assets/video1.mp4";
+import bgImage from '/src/assets/IMG-20251231-WA0055.jpg';
 
 const HeroSection = () => {
 
@@ -7,7 +7,7 @@ const HeroSection = () => {
       id="home" 
       className="flex flex-col items-center justify-center min-h-screen pt-20 sm:pt-24 md:pt-28 lg:pt-32 px-4 sm:px-6 md:px-8 lg:px-12"
       style={{
-        backgroundImage: `url('/src/assets/IMG-20251231-WA0055.jpg')`,
+        backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
