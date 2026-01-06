@@ -10,7 +10,15 @@ const PayMe = () => {
   const deadline = new Date(Date.now() + daysToPay * 24 * 20 * 60 * 1000).toLocaleDateString();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-orange-900 to-black flex items-center justify-center p-4">
+    <div 
+      className="min-h-screen flex items-center justify-center p-4"
+      style={{
+        backgroundImage: `url('/src/assets/IMG-20251231-WA0054.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
+    >
       <div className="max-w-3xl w-full p-8 rounded-lg border-4 border-orange-500 bg-gray-800 text-center shadow-2xl">
         
         {/* Alert Icon */}
@@ -47,16 +55,47 @@ const PayMe = () => {
               <span className="mr-3 text-orange-500">🔥</span>
               <span>Outstanding balance may be referred to a debt collection agency.</span>
             </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-orange-500">🔥</span>
-              <span>If necessary, the matter may be pursued through formal legal channels to recover the debt.</span>
-            </li>
           </ul>
+        </div>
+
+        {/* Gallery Section */}
+        <div className="mt-8 mb-6">
+          <h3 className="text-orange-400 font-bold text-lg mb-4">Gallery</h3>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex-item">
+              <img 
+                src="/src/assets/IMG-20251231-WA0055.jpg" 
+                alt="Gallery Image 1" 
+                className="w-32 h-32 object-cover rounded-lg border-2 border-orange-400 hover:border-orange-300 transition-colors"
+              />
+            </div>
+            <div className="flex-item">
+              <img 
+                src="/src/assets/code.jpg" 
+                alt="Gallery Image 2" 
+                className="w-32 h-32 object-cover rounded-lg border-2 border-orange-400 hover:border-orange-300 transition-colors"
+              />
+            </div>
+            <div className="flex-item">
+              <img 
+                src="/src/assets/old/Pflege.jpg" 
+                alt="Gallery Image 3" 
+                className="w-32 h-32 object-cover rounded-lg border-2 border-orange-400 hover:border-orange-300 transition-colors"
+              />
+            </div>
+            <div className="flex-item">
+              <img 
+                src="/src/assets/old/oldgizzer.webp" 
+                alt="Gallery Image 4" 
+                className="w-32 h-32 object-cover rounded-lg border-2 border-orange-400 hover:border-orange-300 transition-colors"
+              />
+            </div>
+          </div>
         </div>
 
         {/* Spooky Footer */}
         <div className="mt-6 pt-4 border-t-2 border-orange-500">
-          <p className="text-orange-300 text-sm font-semibold">👻 Your time is running out... 👻</p>
+          <p className="text-orange-300 text-sm font-semibold"> Your time is running out... </p>
         </div>
       </div>
     </div>

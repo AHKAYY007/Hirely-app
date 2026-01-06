@@ -3,15 +3,28 @@
 const HeroSection = () => {
 
   return (
-    <div id="home" className="flex flex-col items-center justify-center min-h-screen pt-20 sm:pt-24 md:pt-28 lg:pt-32 px-4 sm:px-6 md:px-8 lg:px-12">
-      <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center tracking-wide max-w-5xl leading-tight">
+    <div 
+      id="home" 
+      className="flex flex-col items-center justify-center min-h-screen pt-20 sm:pt-24 md:pt-28 lg:pt-32 px-4 sm:px-6 md:px-8 lg:px-12"
+      style={{
+        backgroundImage: `url('/src/assets/IMG-20251231-WA0055.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        minHeight: '100vh',
+        opacity: 0.69,
+        
+      }}
+    >
+      <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center tracking-wide max-w-5xl leading-tight text-white">
         <b className="block mb-3 sm:mb-4 md:mb-5">CFTCR - Platform</b>
-        <span className="bg-gradient-to-r from-green-500 to-teal-700 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-green-900 to-teal-900 text-transparent bg-clip-text">
           for training & consultancy
         </span>
       </h1>
 
-      <div className="mt-8 sm:mt-10 md:mt-14 lg:mt-16 text-sm sm:text-base md:text-lg lg:text-lg text-center text-neutral-400 max-w-3xl space-y-5 sm:space-y-6 md:space-y-7">
+      {/* sub writings
+      <div className="mt-8 sm:mt-10 md:mt-14 lg:mt-16 text-base sm:text-lg md:text-xl lg:text-xl text-center text-neutral-900 max-w-3xl space-y-5 sm:space-y-6 md:space-y-7 font-light tracking-wide">
         <p className="leading-relaxed px-2">
           Connect with professional training and consultancy services. Gain industry-recognised qualifications with hands-on support.
         </p>
@@ -19,18 +32,18 @@ const HeroSection = () => {
         <p className="leading-relaxed px-2">
           Get trained by experts in early years, health care, education and professional development.
         </p>
-      </div>
+      </div> */}
 
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 md:gap-6 justify-center mt-10 sm:mt-12 md:mt-16 lg:mt-20 w-full sm:w-auto px-4 sm:px-0">
         <a
           href="#services"
-          className="bg-gradient-to-r from-green-500 to-teal-800 py-3 sm:py-4 px-6 sm:px-8 rounded-lg hover:from-green-600 hover:to-teal-900 text-white font-semibold text-center text-sm sm:text-base transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50 min-h-10"
+          className="bg-gradient-to-r from-green-600 to-teal-800 py-3 sm:py-4 px-6 sm:px-8 rounded-lg hover:from-green-600 hover:to-teal-900 text-white font-semibold text-center text-sm sm:text-base transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50 min-h-10"
         >
           Get Started
         </a>
         <a
           href="#about"
-          className="py-3 sm:py-4 px-6 sm:px-8 rounded-lg border border-neutral-600 hover:border-teal-500 hover:bg-neutral-800/50 text-center font-semibold text-white text-sm sm:text-base transition-all duration-300 min-h-10"
+          className="py-3 sm:py-4 px-6 sm:px-8 rounded-lg border border-green-800 hover:border-teal-900 hover:bg-neutral-800/50 text-center font-semibold text-white text-sm sm:text-base transition-all duration-300 min-h-10"
         >
           Learn More
         </a>

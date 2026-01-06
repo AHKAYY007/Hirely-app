@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection";
 import CoursesSection from "./components/CoursesSection";
 import ConsultancyServices from "./components/ConsultancyServices";
 import CPDCalendar from "./components/CPDCalendar";
+import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <Gallery />
       <CoursesSection />
       <ConsultancyServices />
       <CPDCalendar />
