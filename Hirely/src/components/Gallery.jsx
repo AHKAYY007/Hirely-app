@@ -1,4 +1,11 @@
-import React from "react";
+import img1 from '/src/assets/kids/kid2.jpeg';
+import img2 from '/src/assets/IMG-20251231-WA0055.jpg';
+import img3 from '/src/assets/old/Pflege.jpg';
+import img4 from '/src/assets/kids/kid3.jpeg';
+import img5 from '/src/assets/kids/kid5.jpeg';
+import img6 from '/src/assets/old/oldgizzer.webp';
+import img7 from '/src/assets/IMG-20251231-WA0054.jpg';
+import img8 from '/src/assets/kids/kid1.jpeg';
 
 const Gallery = () => {
   return (
@@ -12,7 +19,7 @@ const Gallery = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <img 
-              src="/src/assets/kids/kid2.jpeg" 
+              src={img1} 
               alt="Gallery Image 1" 
               className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -21,7 +28,7 @@ const Gallery = () => {
           
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <img 
-              src="/src/assets/IMG-20251231-WA0055.jpg" 
+              src={img2} 
               alt="Gallery Image 2" 
               className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -30,7 +37,7 @@ const Gallery = () => {
           
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <img 
-              src="/src/assets/old/Pflege.jpg" 
+              src={img3} 
               alt="Gallery Image 3" 
               className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -39,7 +46,7 @@ const Gallery = () => {
 
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <img 
-              src="/src/assets/kids/kid3.jpeg" 
+              src={img4} 
               alt="Gallery Image 5" 
               className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -48,7 +55,7 @@ const Gallery = () => {
 
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <img 
-              src="/src/assets/kids/kid5.jpeg" 
+              src={img5} 
               alt="Gallery Image 4" 
               className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -57,7 +64,7 @@ const Gallery = () => {
           
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <img 
-              src="/src/assets/old/oldgizzer.webp" 
+              src={img6} 
               alt="Gallery Image 6" 
               className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -66,7 +73,7 @@ const Gallery = () => {
 
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <img 
-              src="/src/assets/IMG-20251231-WA0054.jpg" 
+              src={img7} 
               alt="Gallery Image 7" 
               className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -75,7 +82,7 @@ const Gallery = () => {
 
           <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <img 
-              src="/src/assets/kids/kid1.jpeg" 
+              src={img8} 
               alt="Gallery Image 8" 
               className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
             />
