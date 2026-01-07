@@ -2,7 +2,7 @@ import download from "../assets/favicon.png";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
-  const contactEmail = import.meta.env.VITE_CONTACT_EMAIL || "info@hirely.co.uk";
+  const contactEmail ="info@centrefortraining.co.uk";
   const currentYear = new Date().getFullYear();
 
   return (
