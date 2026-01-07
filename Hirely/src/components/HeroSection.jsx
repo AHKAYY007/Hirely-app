@@ -36,7 +36,7 @@ const HeroSection = () => {
 
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 md:gap-6 justify-center mt-10 sm:mt-12 md:mt-16 lg:mt-20 w-full sm:w-auto px-4 sm:px-0">
         <a
-          href="#services"
+          href="https://cftconsult.laserlearning.co.uk"
           className="bg-gradient-to-r from-green-600 to-teal-800 py-3 sm:py-4 px-6 sm:px-8 rounded-lg hover:from-green-600 hover:to-teal-900 text-white font-semibold text-center text-sm sm:text-base transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50 min-h-10"
         >
           Get Started

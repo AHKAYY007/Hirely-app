@@ -40,7 +40,7 @@ const Navbar = () => {
           {/* Desktop CTA */}
           <div className="hidden lg:flex justify-center items-center">
             <a
-              href="#services"
+              href="https://cftconsult.laserlearning.co.uk"
               className="bg-gradient-to-r from-green-500 to-teal-800 py-2 md:py-3 px-4 md:px-6 rounded-lg hover:from-green-600 hover:to-teal-900 font-semibold text-white"
             >
               Get Started
