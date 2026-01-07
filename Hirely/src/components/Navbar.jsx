@@ -3,6 +3,7 @@ import { useState } from "react";
 import download from "../assets/favicon.png";
 import { navItems } from "../constants";
 
+
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
